@@ -97,3 +97,54 @@ let a=function(){
  resouce.implemnt="lap"
  
  console.log(resouce.name)
+ 
+ //dealing with date and time objects
+ let date=new Date()
+ console.log(date.getHours())
+ console.log(date.getMinutes())
+ console.log(date.getSeconds( ))
+
+ console.log(date.setDate(21))
+ console.log(date.setTime(3))
+
+ //dealing with for in and for of loops
+ let sample="john"
+
+ let sample1={
+    age:27,
+    add:"kerala",
+    subject:"dsa"
+ }
+ let sample2=["petter",27,"github"]
+
+//trying to work with for inloop
+for( let val1 in sample){
+console.log(val1)
+}
+for( let val1 in sample1){
+console.log(val1)
+}
+for( let val1 in sample2){
+console.log(val1)
+}
+//now testing with for of loop
+let company="google"
+
+let company2={
+    name:"facebook",
+    platform:"social media",
+    reach:"millions"
+}
+
+let platform=["instagram","facebook","twitter"]
+
+for(let checks of company){
+   console.log(checks)
+}
+//??not objrect is not itterable uncaught type error
+// for(let checks of company2){
+//    console.log(checks)
+// }
+for(let checks of platform){
+   console.log(checks)
+}
