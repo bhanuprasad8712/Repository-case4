@@ -82,3 +82,18 @@ let a=function(){
  arr2[3]="sohil";
  arr2[0]="sachin";
  console.log(arr2)
+ //creation objects they can be created in two ways literal way and object way
+ let details={
+   name:"rakesh",
+   age:24,
+   domine:"cse",
+   native:"hyderabad"
+ }
+
+ console.log(details.name)
+ //crating object using new keyword
+ let resouce= new Object()
+ resouce.name="youtube",
+ resouce.implemnt="lap"
+ 
+ console.log(resouce.name)
