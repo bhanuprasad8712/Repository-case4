@@ -148,3 +148,18 @@ for(let checks of company){
 for(let checks of platform){
    console.log(checks)
 }
+//dealing with spread operatior(...) and rest paramenter
+let banks=["CBI","SBI","CANARA"]
+let account=["current","SAVING","ZERO ACCOUTS"]
+var obi1={
+    bank:"cbi",
+    branch:"chada",
+    account:"savings"
+}
+var obi2={
+    bank:"sbi",
+    branch:"hyd",
+    account:"savings"
+}
+let bankaccount=[...banks,...account]
+console.log(bankaccount)
