@@ -163,3 +163,13 @@ var obi2={
 }
 let bankaccount=[...banks,...account]
 console.log(bankaccount)
+let obj={banks}
+console.log(obj)
+//Arrow function there are two types in arrow functions
+// implict arrow funtion and explict arrow funcuons
+//explict arrow function
+let ak =()=>{
+    return "let's test the mplict";
+}
+console.log(ak())
+ 
